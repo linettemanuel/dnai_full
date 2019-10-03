@@ -423,14 +423,14 @@ section .content-area p {
   font-size: 1.8rem;
   letter-spacing: 0.3rem;
   font-weight: 100;
-  opacity: 0.8;
+  opacity: 1;
   text-align: justify;
 }
 
 section .content-area p span {
   font-size: 1.2rem;
   letter-spacing: 0.3rem;
-  font-weight: 100;
+  font-weight: 300;
   color: red;
   cursor: pointer;
 }
@@ -469,6 +469,7 @@ section .content-area p span:hover {
 .contact-area .one-third {
   width: 33.3%;
   margin: 0.3rem 0;
+  margin-left: 66%;
 }
 
 footer {
@@ -521,9 +522,9 @@ footer {
   display: block;
   text-decoration: none;
   color: white;
-  opacity: 0.4;
+  opacity: 0.7;
   text-transform: uppercase;
-  font-weight: 100;
+  font-weight: 200;
   font-size: 1.2rem;
   cursor: pointer;
 }
